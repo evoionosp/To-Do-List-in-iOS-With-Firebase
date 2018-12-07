@@ -12,12 +12,20 @@ class Item{
         
         var id: String?
         var title: String?
+    var desc: String?
         var isDone: Bool?
+        var isFav: Bool?
         
-        init(id: String?, title: String?, isDone: Bool?){
+    init(id: String?, title: String?, desc: String?, isDone: Bool?, isFav: Bool?){
             self.id = id
             self.title = title
+            self.desc = desc
             self.isDone = isDone
+            self.isFav = isFav
         }
+    
+    init() {
+        
+    }
 
 }

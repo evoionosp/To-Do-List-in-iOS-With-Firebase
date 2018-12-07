@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5202D46C21BA0A7E004509F7 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5202D46B21BA0A7E004509F7 /* DetailViewController.swift */; };
 		5244FC2B21AD17D700286C03 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5244FC2A21AD17D700286C03 /* Item.swift */; };
-		5244FC2D21AD19B500286C03 /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5244FC2C21AD19B500286C03 /* MyTableViewCell.swift */; };
 		5244FC2F21AD1E9000286C03 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5244FC2E21AD1E9000286C03 /* GoogleService-Info.plist */; };
 		526EB8AD21AC77A4008B4C3F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526EB8AC21AC77A4008B4C3F /* AppDelegate.swift */; };
 		526EB8B221AC77A4008B4C3F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 526EB8B021AC77A4008B4C3F /* Main.storyboard */; };
@@ -20,8 +20,8 @@
 
 /* Begin PBXFileReference section */
 		3C54DA69BF3446C1D2481426 /* Pods-To Do List App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-To Do List App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-To Do List App/Pods-To Do List App.debug.xcconfig"; sourceTree = "<group>"; };
+		5202D46B21BA0A7E004509F7 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		5244FC2A21AD17D700286C03 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
-		5244FC2C21AD19B500286C03 /* MyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
 		5244FC2E21AD1E9000286C03 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		526EB8A921AC77A4008B4C3F /* To Do List App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "To Do List App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		526EB8AC21AC77A4008B4C3F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -75,7 +75,7 @@
 				526EB8B821AC77A6008B4C3F /* Info.plist */,
 				526EB8BE21AC7A23008B4C3F /* ToDoListController.swift */,
 				5244FC2A21AD17D700286C03 /* Item.swift */,
-				5244FC2C21AD19B500286C03 /* MyTableViewCell.swift */,
+				5202D46B21BA0A7E004509F7 /* DetailViewController.swift */,
 			);
 			path = "To Do List App";
 			sourceTree = "<group>";
@@ -228,8 +228,8 @@
 			files = (
 				5244FC2B21AD17D700286C03 /* Item.swift in Sources */,
 				526EB8BF21AC7A23008B4C3F /* ToDoListController.swift in Sources */,
-				5244FC2D21AD19B500286C03 /* MyTableViewCell.swift in Sources */,
 				526EB8AD21AC77A4008B4C3F /* AppDelegate.swift in Sources */,
+				5202D46C21BA0A7E004509F7 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
